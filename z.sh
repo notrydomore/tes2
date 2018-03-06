@@ -8,9 +8,7 @@ sudo apt-get --assume-yes install git build-essential cmake libuv1-dev uuid-dev 
 
 echo "---DOWNLOAD,COMPILE, INSTALL AND CONFIGURE XMRIG-PROXY"
 git clone https://github.com/xmrig/xmrig-proxy.git
-cd xmrig-proxy
-mkdir build
-cd build
+echo "cd xmrig-proxy && mkdir build && cd build"
 
 echo "---compiling xmrig-proxy---"
 cmake ..
